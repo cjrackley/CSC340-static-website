@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav">
+        <a href="index.html"><button>Home</button></a>
+        <a href="details.html"><button>Details</button></a>
+        <a href="about.html"><button>About</button></a>
+        <a href="new-character-form.html"><button>Add a Character</button></a>
+    </nav>
+
+    <main class="main form-main">
+        <!-- First container: header and description -->
+        <div class="form-intro">
+            <h1>Add a Character</h1>
+            <p>Fill out the form below to add a new sorcerer to the collection.</p>
+        </div>
+
+        <!-- Second container: the form -->
+        <div class="form-card">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter character name">
+
+                <label for="description">Short Description</label>
+                <input type="text" id="description" placeholder="Enter a short description">
+
+                <label for="Image">Image URL</label>
+                <input type="text" id="image-url" placeholder="Enter image URL">
+
+                <label for="grade">Grade</label>
+                <select id="grade">
+                    <option>Grade 4</option>
+                    <option>Grade 3</option>
+                    <option>Grade 2</option>
+                    <option>Grade 1</option>
+                    <option>Special Grade</option>
+                </select>
+
+                <div class="form-buttons">
+                    <a href="index.html"><button type="submit">Create</button></a>
+                    <a href="index.html"><button type="button">Cancel</button></a>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Footer description.</p>
+    </footer>
+</body>
+</html>
